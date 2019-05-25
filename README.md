@@ -3,9 +3,12 @@
 
 ## Integrative analysis of transcriptomics and genomics data of bladder cancer to predict potential drug targets
 
+ -project: TCGA-BLCA
  - [ ] Input: 
-	 - 1) MAF
-	 - 2) Targeted Genes
+	 - 1)RNA-seq(HTSeq - Counts) -txt
+	 - 2)miRNA-seq(BCGSC miRNA Profiling) -txt *isofroms excluded*
+	 - 3)WXS(VarScan2 Variant Aggregation and Masking) single nucleotide variation  -MAF
+	 - 4) DEGs & DEMs *Targeted Genes*
 
 - [ ] Check the SNPs and get the variants.
 - [ ] Check Drug Data Bank 
